@@ -1,7 +1,7 @@
 import sqlite3, os, time
 from datetime import date
 
-conexao = sqlite3.Connection('db/banco.db')
+conexao = sqlite3.Connection('banco.db')
 cursor = conexao.cursor()
 
 def criar_tabelas():
